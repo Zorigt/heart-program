@@ -1,0 +1,988 @@
+.multi_step_input_set, .table_input_set
+{
+    border: none;
+    padding: 16px;
+    position: relative;
+}
+
+.multi_step_input_set legend, .table_input_set legend
+{
+    font-family: Arial, Helvetica, Sans-Serif;
+    color: #444444;
+    border: none;
+    font-weight: bold;
+    padding: 10px 24px 10px 24px;
+    text-transform: uppercase;
+    background-color: #DDDDDD;
+    width: 100%;
+    margin-left: -24px;
+    border-radius: 5px;
+}
+
+.multi_step_input_set div
+{
+    float: left;
+    height: auto;
+    margin: 8px 0 4px 0;
+}
+
+.multi_step_input_set label
+{
+    display: inline-block;
+    font-weight: bold;
+    margin: 0;
+    zoom: 1;
+    *display: inline;
+    padding: 0 0 0 8px;
+    margin-bottom: 4px;
+}
+
+.multi_step_input_set .row, 
+{
+    float: none;
+    zoom: 1;
+    margin: 0;
+    vertical-align: bottom;
+}
+.clear_container 
+{
+    float: none;
+    overflow: hidden;
+    zoom: 1;
+    margin: 0;  
+    clear: both;
+}
+
+.table_input_set td
+{
+    padding: 3px;
+    vertical-align: middle !important;
+}
+
+.lc_input_table td:first-child
+{
+    width: 160px;
+}
+
+.lc_input_table td:first-child + td
+{
+    width: 120px;
+}
+
+.lc_input_table td:first-child + td + td
+{
+    width: 25px;
+}
+
+.table_input_set td.info
+{
+    text-align: right;
+}
+
+.table_input_set label
+{
+    font-weight: bold;
+}
+
+.table_input_set label.option_label
+{
+    font-weight: normal;
+}
+
+.table_input_set textarea, input
+{
+    font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 13px;
+}
+
+.multi_step_input_set div input, .multi_step_input_set div select
+{
+    margin: 0 0 0 8px;
+}
+
+.multi_step_input_set input[disabled='disabled'], .multi_step_input_set select[disabled='disabled']
+{
+    background-color: #FFFFFF;
+    border: 1px solid #E4E4E4;
+	color: #999999;
+}
+
+.standard_input_set input[disabled='disabled']
+{
+	color: #999999;
+}
+.standard_input_set
+{
+    border: none;
+    padding: 16px;
+    position: relative;
+}
+
+.standard_input_set legend
+{
+    font-family: Arial, Helvetica, Sans-Serif;
+    color: #444444;
+    border: none;
+    font-weight: bold;
+    padding: 10px 24px 10px 24px;
+    text-transform: uppercase;
+    background-color: #DDDDDD;
+    width: 100%;
+    margin-left: -24px;
+    border-radius: 5px;
+}
+
+.standard_input_set label
+{
+    display: inline-block;
+    *display: inline;
+    zoom: 1;    
+    font-weight: bold;
+    margin: 4px 0 0 0;
+    padding: 0 0 0 8px;
+    width: 128px;
+    text-align: left;
+    
+}
+
+ .standard_input_set label.wider{
+    padding-right:50px;
+}      
+
+ .standard_input_set label u {
+    color: #787878;    
+    font-size: 10px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.standard_input_set input, .standard_input_set select, .standard_input_set textarea
+{
+    margin: 8px 0 0 8px;
+    color: #000000;
+}
+
+.standard_input_set div
+{
+    display: inline;
+}
+
+.required, .required-header
+{
+    color: #F04B09;
+    text-align: right;
+    font-weight: bold;
+    padding-left: 4px;
+}
+
+.required-header
+{
+    width: 100%;
+    text-align: right;
+    margin: 0 0 2px 0;
+}
+
+.note
+{
+    text-transform: uppercase;
+    font-size: .9em;
+    color: #F04B09;
+}
+
+.option_filter_help
+{
+    display: inline-block;
+    height: 8px;
+    width: 6px;
+    padding: 6px;
+    position: relative;
+    background-image: url('../Skins/images/Info_Black.png');
+    background-repeat: no-repeat;
+    background-position: 2px 3px;
+    text-decoration: none;
+    vertical-align:text-bottom;
+}
+
+.option_filter_help em
+{
+    display: block;
+    color: #FFFFFF;
+    background-color: #444444;
+    width: 370px;
+    padding: 15px;
+    position: absolute;
+    top: 8px;
+    left: 28px;
+    z-index: 20;
+    display: none;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.option_filter_help em b, .help_popup em b
+{
+    display: block;
+    width: 4px;
+    padding: 8px;
+    position: absolute;
+    top: -3px;
+    left: -16px;
+    z-index: 21;
+    background-image: url('../Skins/images/HoverInfoTriangle.png');
+    background-repeat: no-repeat;
+    background-position: 2px 3px;
+}
+
+.help_popup
+{
+    display: inline-block;
+    position: relative;
+}
+
+.help_popup em
+{
+    display: block;
+    color: #FFFFFF;
+    background-color: #444444;
+    width: 128px;
+    padding: 15px;
+    position: absolute;
+    top: 8px;
+    left: 100%;
+    z-index: 20;
+    display: none;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    margin: 0 0 0 15px;
+    border-radius: 5px;
+}
+
+.qa_input_set
+{
+    border: none;
+    padding: 16px;
+    position: relative;
+}
+
+.qa_input_set legend
+{
+    font-family: Arial, Helvetica, Sans-Serif;
+    color: #444444;
+    border: none;
+    font-weight: bold;
+    padding: 10px 24px 10px 24px;
+    text-transform: uppercase;
+    background-color: #DDDDDD;
+    width: 100%;
+    margin-left: -24px;
+    border-radius: 5px;
+}
+
+.qa_input_set label
+{
+    display: inline-block;
+    font-weight: normal;
+    font-size: 12px;
+    padding: 0 0 12px 8px;
+    *display: inline;
+    zoom: 1;
+    width: 392px;
+    vertical-align: middle;
+    text-align: left;
+}
+.qa_input_set label.bold
+{
+   font-weight: bold;
+}
+
+
+.qa_input_set input, .qa_input_set select, .qa_input_set textarea
+{
+    margin-left: 8px;
+}
+
+.qa_input_set div
+{
+    display: inline;
+}
+
+.qa_input_set div label
+{
+    width: auto;
+}
+.report_view_set 
+{
+    border: none;
+    color: #444444;
+}
+.report_view_set legend
+{
+    display: block;
+    color: #787878;
+    border-bottom: 1px solid #444444;
+    width:100%;
+    margin: 16px 0px 16px -8px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px 0 4px 8px;
+    
+}
+.report_view_set label
+{
+    display: inline-block;
+    padding: 0 0 12px 8px;
+    *display: inline;
+    zoom: 1;
+    width: 392px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.report_view_set div
+{
+    display: inline;
+}
+
+.report_view_set div label
+{
+    display: inline;
+    width: auto;
+}
+
+
+.inline_input_set 
+{
+    border: none;
+    color: #444444;
+    padding: 0 0 0 24px;
+    margin: 0;
+}
+.inline_input_set legend
+{
+        font-family: Arial, Helvetica, Sans-Serif;
+        color: #444444;
+        border: none;
+        font-weight: bold;
+        padding: 10px 24px 10px 24px;
+        text-transform: uppercase;
+        background-color: #DDDDDD;
+        width: 100%;
+        margin-left: -32px;
+        margin-top: 8px;
+        border-radius: 5px;
+}
+.inline_input_set label
+{
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 0 12px 8px;
+    *display: inline;
+    zoom: 1;
+    width: 256px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.inline_input_set div
+{
+    display: inline;
+    zoom: 1;
+    margin: 16px 16px 0 0; 
+}
+
+.inline_input_set div label
+{
+    display: inline;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.inline_input_set div.combo_label
+{
+    display: inline-block;
+    padding: 0 8px 12px 0;
+    *display: inline;
+    zoom: 1;
+    width: 256px;
+    vertical-align: top;
+}
+
+.inline_input_set div.combo_input
+{
+    display: inline-block;
+    padding: 0;
+    *display: inline;
+    zoom: 1;
+    vertical-align: top;
+}
+
+.combo_label label
+{
+    display: inline;
+    width: auto;
+}
+dl 
+{
+    margin-left: 8px;    
+    text-align: left;
+}
+dl dt 
+{
+    font-weight: bold;
+    font-style:italic;
+    margin: 6px 0 2px 0;
+    padding: 0;
+}
+dl dd
+{
+    font-weight: normal;
+    margin-left: 0;
+}
+
+
+.app_input_set
+{
+    border: none;
+    padding: 0 16px 0 16px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.app_input_set legend
+{
+    font-family: Arial, Helvetica, Sans-Serif;
+    color: #444444;
+    border: none;
+    font-weight: bold;
+    padding: 10px 24px 10px 24px;
+    text-transform: uppercase;
+    background-color: #DDDDDD;
+    width: 100%;
+    margin: 8px -16px 8px -24px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.app_input_set legend.no_uppercase
+{
+   text-transform: none;
+}
+
+.app_input_set fieldset
+{
+    float: left;
+    height: auto;
+    margin: 8px 8px 4px 0;
+}
+
+.app_input_set fieldset label
+{
+    display: block;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 0 8px;
+    margin-bottom: 4px;
+    width: auto;
+}
+
+.app_input_set fieldset label.inline
+{
+    display: inline-block;
+    font-weight: bold;
+    margin: 0;
+    zoom: 1;
+    *display: inline;
+    padding: 0 0 0 8px;
+    margin-bottom: 4px;
+    height: 16px;
+    width: auto;
+}
+
+.app_input_set div.row fieldset legend
+{
+    padding-left: 7px;
+    padding-bottom: 4px;
+}
+
+.app_input_set fieldset input, .app_input_set fieldset select, .app_input_set fieldset p
+{
+    margin-left: 8px;
+}
+
+.row 
+{
+    clear: both;
+    display: block;
+    float: none;
+    zoom: 1;
+    margin: 0;
+    vertical-align: bottom;
+}
+
+.app_input_set fieldset
+{
+    margin: 16px 16px 0 0;
+    padding: 0;
+    border: none;
+}
+.app_input_set fieldset div
+{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.app_input_set fieldset legend
+{
+    color: #000000;
+    font-weight: bold;
+    margin: 0 0 0 -6px;
+    padding: 0;   
+    border: none;
+    background: none;    
+    font-weight: bold;
+    text-transform: none;
+    border-radius: 0;     
+}
+
+.app_input_set fieldset label abbr
+{
+    display: inline;
+    margin: 0 0 0 6px;
+    padding: 0;
+    color: #787878;
+    font-size: 10px;
+    font-weight: normal;
+    text-transform: uppercase; 
+    text-decoration: none;   
+}
+
+.app_input_set fieldset label u
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: #787878;
+    font-size: 10px;
+    font-weight: normal;
+    text-transform: uppercase; 
+    text-decoration: none;   
+}
+
+.app_input_set fieldset label u:empty
+{
+    display: block;
+    zoom: 1;
+    height: 12px;
+}
+
+.app_input_set fieldset label.sub_label
+{
+    margin: 0 0 0 8px;
+    padding: 0;
+    display: block;
+    height: auto;
+}
+
+.app_input_set fieldset label.empty_sub_label
+{
+    display: block;
+    zoom: 1;
+    height: 12px;
+}
+
+.for_your_eyes_only
+{
+color: #F4F4F4;    
+font-size: xx-small;
+}
+
+.for_your_eyes_only dt, dd
+{
+    margin-right: 4px;
+display: inline;
+}
+
+.please_wait
+{
+    display: block;
+    position: fixed;
+    z-index: 998;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #EEEEEE;
+    text-align: center;
+    opacity: 0.0;
+    filter: alpha(opacity=0);
+}
+
+.please_wait_message
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: none;
+    z-index: 999;
+    align: center;
+}
+.please_wait_message div
+{
+    width: 222px;
+    height: 42px;
+    margin: 0px auto -1px auto; 
+    margin-top: 28%;
+    #margin-left: 42%;
+    background-color: #FFFFFF;
+    padding: 24px 8px 16px 32px;
+    border: 1px solid #575757;
+    border-radius: 6px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;    
+    position: fixed;
+    -moz-box-shadow: 3px 3px 4px #444;
+    -webkit-box-shadow: 3px 3px 4px #4444;
+    box-shadow: 3px 3px 4px #444444;    
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444');
+    
+}
+
+.please_wait_message h1
+{
+    display: inline;
+    color: #575757;
+    font-size: large;
+    font-weight: bold;
+    padding: 4px;
+    margin: 6px 0 0 0;
+    float: left;
+    font-family: Arial,Helvetica,Sans-Serif;
+    font-size: 15px;
+    font-style: italic;
+}
+.please_wait_message img
+{
+    float: left;
+    padding: 4px 16px 4px 4px;
+    margin: 0;
+}
+
+.submission_waiting_message
+{          
+    margin: 40px 40px 0 0; 
+    display: block;              
+    text-align: center;  
+}
+
+.submission_waiting_message label.waitingtime
+{    
+    
+    font-weight: bold;    
+    font-family: Arial,Helvetica,Sans-Serif;
+    font-size: 20px;    
+    display: inline;    
+    
+}
+
+.submission_waiting_message label.waitingtime_red
+{        
+    font-weight: bold;    
+    font-family: Arial,Helvetica,Sans-Serif;
+    font-size: 20px;    
+    display: inline;
+    color: red;        
+}
+
+.submission_waiting_message label
+{        
+    display: inline-block;    
+    width: 600px;
+    text-align: left;   
+}
+
+.submission_waiting_message img
+{            
+    padding: 20px 20px 20px 20px;        
+}
+
+
+.summary_table_heading
+{
+    margin-top: 18px;
+    padding: 2px 6px 2px 8px;
+}
+
+.summary_table
+{
+    font-family: Calibri, Arial, Sans-Serif;
+    width: 100%;
+    padding: 4px;
+    margin: 20px 2px 16px 2px;
+    
+}
+
+.summary_table caption
+{
+    color: #999999;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;    
+    text-transform: none;
+    padding: 2px 6px 2px 0px;
+    margin: 0;
+    border-bottom: 1px solid #999999;
+}
+
+.summary_table thead
+{
+    font-size: 16px;
+    text-transform: none; 
+}
+.summary_table thead tr.sub_label
+{
+    vertical-align: baseline;
+    font-size: 12px;
+}
+.summary_table thead td
+{
+    margin: 0;
+    padding: 0;
+}
+
+.summary_table tbody
+{
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;    
+}
+.error_messages
+{
+    margin: 0;
+    padding: 0;
+    color: #F04B09;
+}
+
+.error_messages li
+{
+    list-style: none;
+}
+
+.navigation_buttons ul
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding: 6px 0 6px 0;    
+}
+
+.navigation_buttons ul li
+{
+    display: inline;
+    list-style: none;
+    margin: 0 48px 0 48px;
+}
+.navigation_buttons ul li:first-child
+{
+    margin-left: 0;
+}
+.navigation_buttons ul li:last-child
+{
+    margin-right: 0;
+}
+.navigation_buttons span
+{
+    margin: 0 8px 0 8px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    vertical-align: middle;
+    height: 23px;
+    line-height: 23px;    
+}
+.navigation_buttons a.edit_button 
+{
+    height: 23px;
+    line-height: 23px;      
+}
+
+.extended_input_set
+{
+    border: none;
+    padding: 16px;
+    position: relative;
+}
+
+.extended_input_set legend
+{
+    font-family: Arial, Helvetica, Sans-Serif;
+    color: #444444;
+    border: none;
+    font-weight: bold;
+    padding: 10px 24px 10px 24px;
+    text-transform: uppercase;
+    background-color: #DDDDDD;
+    width: 100%;
+    margin-left: -24px;
+    border-radius: 5px;
+}
+
+.extended_input_set label
+{
+    display: inline-block;
+    *display: inline;
+    zoom: 1;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    width: 235px;
+    text-align: left;
+    
+}
+
+.extended_input_set input, .extended_input_set select, .extended_input_set textarea
+{
+    margin: 0;
+}
+
+.extended_input_set div
+{
+    display: block;
+}
+.sub_ledger
+{
+    color: #AAAAAA;
+}
+.compact_table tbody tr.oneof2 
+{
+    border: none;
+}
+.notice
+{
+    font-size: x-small
+}
+#loanWizardControls h3
+{
+    font-size: 12px;
+}
+.optionFilter ul 
+{
+    padding: 0;
+    margin: 0;
+}
+
+.optionFilter ul li
+{
+    list-style: none;
+}
+.inline_navigation a 
+{
+    margin-right: 16px;
+}
+#info-pane 
+{
+    min-height: 492px;
+}
+
+.closing_cost_options
+{
+    display: block;
+    padding: 8px;
+}
+
+#multiple-loans address
+{
+    font-style: normal;
+}
+
+#multiple-loans address strong
+{
+    color: Red;
+}
+#messages 
+{
+    margin-bottom: 24px;
+}
+#messages a, a:visited
+{
+    color: #444444;
+    text-decoration: none;
+}
+#messages a:hover 
+{
+    text-decoration: underline;
+}
+
+.document_list tbody tr td
+{
+    vertical-align: middle !important;
+}
+.bad_input
+{
+    background-color: #AA0000;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.instructions
+{
+    margin: 0 0 10px 0;
+    padding: 0 0 8px 0;
+}
+.instructions span
+{
+    margin-right: 12px;
+}
+.compareTable
+{
+    border-collapse: separate;
+}
+.compareTable thead td
+{
+    color: #AAAAAA;
+    font-weight:bolder;
+}
+.compareTable tbody h3
+{
+    font-size: larger;
+}
+.compareTable tbody h2
+{
+    font-size: large;
+    padding: 0;
+    margin: 0;
+    text-transform: none;
+}
+.compareTable strong
+{
+    padding: 14px 0 14px 0;
+}
+.compareTable tbody td
+{
+    padding: 2px 12px 2px 0;
+    vertical-align: bottom;
+}
+.compareTable tbody td.highlight 
+{
+    text-align: center;
+    vertical-align: bottom;
+    padding: 0 8px 0 0;
+}
+.compareTable tbody td.highlight div
+{
+    padding: 2px;
+    width: 128px;
+}
